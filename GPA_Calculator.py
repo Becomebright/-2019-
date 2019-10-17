@@ -12,11 +12,13 @@ class Grade:
         """
 
         # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
+
         self.course =
         self.credit =
         self.grade =
         # gpa = 4-3*（100-grade）^2／1600
         self.gpa =
+
         # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
     def __str__(self) -> str:
@@ -39,6 +41,8 @@ class GPACalculator:
         gpa = 0.0
         # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
+
+
         # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
         self.gpa = gpa
         return self.gpa
@@ -56,21 +60,25 @@ class GPACalculator:
 
         # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
+
+
         # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
     def remove_grade(self, course: str) -> float:
         """
-        根据课程名删除一门课程成绩
+        根据课程名删除一门课程成绩，假设课程名没有重复
         输入：课程名course
         返回：更新后的总gpa
         TODO: 更新self.grades,并返回更新后的总GPA
         HINT:
-            1. 使用for循环进行查找41
+            1. 使用for循环进行查找，假设课程名没有重复
             2. 使用列表的remove方法删除成绩
             3. 可以调用self.get_gpa()计算总GPA
         """
 
         # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
+
+
 
         # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
