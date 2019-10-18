@@ -21,3 +21,11 @@ gpa_calculator =
 # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
 gpa_calculator.show()
+
+print('添加成绩：计算机导论, 100')
+gpa_calculator.add_grades([Grade(course='计算机导论', credit=2, grade=100.0)])
+gpa_calculator.show()
+
+print('删除成绩：计算机导论')
+gpa_calculator.remove_grade('计算机导论')
+gpa_calculator.show()
